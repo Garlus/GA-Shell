@@ -1757,7 +1757,7 @@ StScrollBar {
 #panel {
   background-color: #fafafb6a;
   font-weight: bold;
-  height: 2.2em;
+  height: 2.7em;
   transition-duration: 250ms; }
   #panel .panel-button {
     transition-duration: 150ms;
@@ -1794,7 +1794,7 @@ StScrollBar {
       border-radius: 999px;
       min-width: 0.5455em;
       min-height: 0.5455em;
-      background-color: #222226; }
+      background-color: #fafafa; }
     #panel .panel-button.screen-recording-indicator StBoxLayout, #panel .panel-button.screen-sharing-indicator StBoxLayout {
       spacing: 0.409em; }
     #panel .panel-button.screen-recording-indicator StIcon, #panel .panel-button.screen-sharing-indicator StIcon {
@@ -2002,14 +2002,12 @@ StScrollBar {
 #panel .panel-button,
 #panel .panel-button * {
     color: #fafafa;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 /* Activities button specifically (matching theme's selector style) */
 #panel .panel-button#panelActivities,
 #panel .panel-button#panelActivities .activities-label {
     color: #fafafa;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 
