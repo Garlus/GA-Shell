@@ -1993,6 +1993,19 @@ StScrollBar {
     padding-left: 0.818em;
     padding-right: 0.818em; }
 
+
+
+
+/* Override Panel Styling */
+/* Custom: Make all panel text white */
+#panel,
+#panel .panel-button,
+#panel .panel-button * {
+    color: #fafafa;
+
+}
+
+
 /* Activities Ripple */
 .ripple-box {
   background-color: rgba(255, 255, 255, 0.2);
